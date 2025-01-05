@@ -41,3 +41,17 @@ nav a{
     text-decoration: none;
     color: #424c23;
 }
+section{
+    padding: 40px 60px;
+}
+
+section .hero-text1{
+    background-color: red;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero-text1 h1{
+    font-size: 150px;
+    text-transform: uppercase;
+}
