@@ -12,7 +12,6 @@ body{
 }
 
 main{
-    /* height: 100%; */
     width: 100%;
     background-color: #D5FF3F;
 }
@@ -47,7 +46,6 @@ section{
 }
 
 section .hero-text1{
-    /* background-color: red; */
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -98,8 +96,8 @@ section .hero-text2{
 .hero-text2 p{
     font-size: 25px;
     width: 600px;
-    text-transform: uppercase;
     font-weight: 500;
+    color: #424c23;
 }
 
 .image{
@@ -131,5 +129,4 @@ section .hero-text2{
 }
 .arrow{
     font-size: 140px;
-    
 }
