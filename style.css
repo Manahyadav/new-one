@@ -103,13 +103,33 @@ section .hero-text2{
 }
 
 .image{
-    height: 500px;
+    height: 600px;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
+    position: relative;
     width: 90%;
     margin-left: 5%;
     background-color: red;
     background-image: url(https://img.freepik.com/premium-photo/abstract-3d-render-ballerina-curvy-extrusions-vivid-pastel-colors_685067-966.jpg?w=1060);
     background-size: cover;
     background-position: center;
+    margin-top: 100px;
+}
+.image .arrow{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    right: 5%;
+    top: -10%;
+    color: rgb(255, 236, 96);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 8px solid rgb(58, 57, 57);
+}
+.arrow{
+    font-size: 140px;
+    
 }
