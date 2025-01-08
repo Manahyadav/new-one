@@ -11,6 +11,10 @@ body{
     width: 100%;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 main{
     width: 100%;
     background-color: #D5FF3F;
